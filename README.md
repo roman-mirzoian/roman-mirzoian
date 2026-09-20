@@ -1,10 +1,8 @@
 <div align="center">
 
-# 👋 Hi, I'm Roman Mirzoian
+<img src="./header.svg" width="100%" alt="Roman Mirzoian - Full-Stack Developer" />
 
-### Full-Stack Developer · TypeScript · React · Node.js
-
-Building modern web applications with a focus on **clean architecture, scalable backend services, and intuitive user experiences.**
+</div>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/roman-mirzoian)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/roman-mirzoian)
