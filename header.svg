@@ -1,0 +1,101 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="120" y1="80" x2="950" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+
+  <!-- Decorative grid -->
+  <g opacity="0.07" stroke="#94A3B8">
+    <path d="M0 60H1200"/>
+    <path d="M0 120H1200"/>
+    <path d="M0 180H1200"/>
+    <path d="M0 240H1200"/>
+    <path d="M0 300H1200"/>
+
+    <path d="M100 0V360"/>
+    <path d="M200 0V360"/>
+    <path d="M300 0V360"/>
+    <path d="M400 0V360"/>
+    <path d="M500 0V360"/>
+    <path d="M600 0V360"/>
+    <path d="M700 0V360"/>
+    <path d="M800 0V360"/>
+    <path d="M900 0V360"/>
+    <path d="M1000 0V360"/>
+    <path d="M1100 0V360"/>
+  </g>
+
+  <!-- Accent glow -->
+  <circle cx="1010" cy="90" r="85" fill="#2563EB" opacity="0.10" filter="url(#glow)"/>
+  <circle cx="1070" cy="270" r="110" fill="#7C3AED" opacity="0.08" filter="url(#glow)"/>
+
+  <!-- Code decoration -->
+  <g opacity="0.35" font-family="monospace" font-size="15" fill="#64748B">
+    <text x="820" y="90">const developer = {</text>
+    <text x="850" y="118">name: "Roman",</text>
+    <text x="850" y="146">stack: "TypeScript",</text>
+    <text x="850" y="174">focus: "full-stack",</text>
+    <text x="850" y="202">exploring: "AI"</text>
+    <text x="820" y="230">};</text>
+  </g>
+
+  <!-- Main content -->
+  <text x="90" y="105"
+        font-family="Inter, Arial, sans-serif"
+        font-size="22"
+        font-weight="600"
+        fill="#38BDF8">
+    HELLO, I'M
+  </text>
+
+  <text x="87" y="165"
+        font-family="Inter, Arial, sans-serif"
+        font-size="58"
+        font-weight="800"
+        fill="#F8FAFC">
+    ROMAN MIRZOIAN
+  </text>
+
+  <rect x="90" y="193" width="500" height="2" rx="1" fill="url(#accent)"/>
+
+  <text x="90" y="245"
+        font-family="Inter, Arial, sans-serif"
+        font-size="26"
+        font-weight="600"
+        fill="#CBD5E1">
+    FULL-STACK DEVELOPER
+  </text>
+
+  <text x="90" y="282"
+        font-family="Inter, Arial, sans-serif"
+        font-size="17"
+        fill="#94A3B8">
+    TypeScript · React · Node.js · NestJS · AI
+  </text>
+
+  <!-- Status -->
+  <circle cx="95" cy="322" r="5" fill="#22C55E"/>
+  <text x="110" y="328"
+        font-family="Inter, Arial, sans-serif"
+        font-size="14"
+        fill="#94A3B8">
+    Building things for the web
+  </text>
+</svg>
