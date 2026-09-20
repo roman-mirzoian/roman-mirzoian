@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+[![Roman Mirzoian profile views](https://u8views.com/api/v1/github/profiles/54860641/views/day-week-month-total-count.svg)](https://u8views.com/github/roman-mirzoian)
+
 <!--
 **roman-mirzoian/roman-mirzoian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
